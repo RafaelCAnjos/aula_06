@@ -1,0 +1,50 @@
+body {
+    background-color: lightgray;
+}
+
+.header-container {
+    background-color: black;
+    text-align: center;
+}
+
+.header-container h1 {
+    margin: 0;
+    color: white;
+}
+
+.header-container nav{
+    display: inline-block;
+}
+
+.header-container nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-container nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.header-container nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.article-container {
+    background-color: white;
+    text-align: center; 
+    padding: 20px; 
+    margin: 40px 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
